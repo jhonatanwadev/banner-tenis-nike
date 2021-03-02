@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 90%;
+    max-width: 233px;
+    margin: 0 auto;
+    margin-top: 8rem;
+    border-radius: 15px;
+    border-top-right-radius: 47px;
+    box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.25);
+    position: relative;
+    padding: 15px;
+    padding-top: 6rem;
+}
+
+#background-shoes {
+    position: absolute;
+    bottom: 16.4rem;
+    left: 0;
+}
+
+.banner header {
+    position: absolute;
+    bottom: 7rem;
+    left: -1rem;
+    margin-bottom: 5rem;
+}
+
+.banner header img {
+    width: 400px;
+    height: 395px;
+}
+
+.banner main .text-nike {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1rem;
+    color: #808080;
+    margin-bottom: 0.5rem;
+}
+
+.banner main h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #29455f;
+    margin: 0;
+}
+
+.banner main .price {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: right;
+    color: #29455f;
+    margin: 2px 0px;
+}
+
+.banner main .price span {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #808080;
+}
+
+.bg-blue {
+    background: #3864ff !important;
+}
+
+.bg-orange {
+    background: #ff3838 !important;
+}
+
+.bg-green {
+    background: #b5db48 !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+.banner footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#container-options {
+    grid-column: 1;
+}
+
+.text-options-shoe {
+    font-family: "Open Sans";
+    font-size: 0.8rem;
+    color: #808080;
+}
+
+.button-colors {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: none;
+    margin: 0 5px;
+}
+
+.button-size-shoe {
+    border-radius: 10px;
+    border: solid 1px #bdbdbd;
+    padding: 8px;
+    background: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.button-size-shoe:hover {
+    border-radius: 10px;
+    padding: 8px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #ffffff;
+    border: solid 1px #b5db48;
+    background: #b5db48;
+    transition: 0.2s ease;
+}
+
+.button-size-shoe-active {
+    border-radius: 10px;
+    padding: 8px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #ffffff;
+    border: solid 1px #b5db48;
+    background: #b5db48;
+}
+
+#shopping-cart {
+    grid-column: 2;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#shopping-cart button {
+    border: solid 1px #b5db48;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease;
+}
+
+#shopping-cart button:hover{
+    background: #a1cc26 !important;
+}
+
+.arrows-down {
+    width: 15px;
+    padding: 10px;
+}
+
+.arrows-down svg {
+    width: 16px;
+    height: 10px;
+}

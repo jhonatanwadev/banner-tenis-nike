@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+		<title>Static Template</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="banner">
+			<img id="background-shoes" src="img/eclipse.png" alt="Background Tênis" />
+			<header>
+				<img id="image-shoes" src="img/green_shoe.png" alt="Tenis Nike Verde" />
+			</header>
+			<main>
+				<p class="text-nike">Nike</p>
+				<h1>Epic React Flyknit</h1>
+				<p class="price"><span>R$</span>359,00</p>
+			</main>
+			<footer>
+				<div id="container-options">
+					<div id="box-colors">
+						<p class="text-options-shoe">Cores:</p>
+						<div class="container-buttons-options">
+						<button class="button-colors bg-green" data-color="green"></button>
+						<button class="button-colors bg-orange" data-color="orange"></button>
+						<button class="button-colors bg-blue" data-color="blue"></button>
+						</div>
+					</div>
+					<div id="box-size-shoe">
+						<p class="text-options-shoe">Cores:</p>
+						<div class="container-buttons-options">
+							<button class="button-size-shoe" data-sizeShoes="37">37</button>
+							<button class="button-size-shoe" data-sizeShoes="38">38</button>
+							<button class="button-size-shoe" data-sizeShoes="39">39</button>
+							<button class="button-size-shoe" data-sizeShoes="40">40</button>
+						</div>
+					</div>
+				</div>
+				<div id="shopping-cart">
+					<button class="bg-green">
+						<div class="arrows-down">
+						<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M10.59 0.294937L6 4.87494L1.41 0.294937L0 1.70494L6 7.70494L12 1.70494L10.59 0.294937Z" fill="white" fill-opacity="0.6"/>
+						</svg>
+						<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M10.59 0.294937L6 4.87494L1.41 0.294937L0 1.70494L6 7.70494L12 1.70494L10.59 0.294937Z" fill="white" fill-opacity="0.6"/>
+						</svg>
+						<svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M10.59 0.294937L6 4.87494L1.41 0.294937L0 1.70494L6 7.70494L12 1.70494L10.59 0.294937Z" fill="white" fill-opacity="0.6"/>
+						</svg>
+						</div>
+						<div class="cart">
+							<img src="img/local_grocery_store_24px.png" alt="" />
+						</div>
+					</button>
+				</div>
+			</footer>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
