@@ -37,24 +37,12 @@ function removeAllActivates(){
 }
 
 function changedSizeShoe() {
-
-
-
     for (let i = 0; i < elementSizeShoe.length; i++) {
 
         if(!this.classList.contains("button-size-shoe-active")){
             removeAllActivates();
             this.classList.add("button-size-shoe-active");
         }
-
     }
-
 }    
-
-function checkActivated(param){
-
-    
-
-}
-
 // End Function Select Size Shoes
